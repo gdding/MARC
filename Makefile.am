@@ -1,0 +1,2 @@
+AUTOMAKE_OPTIONS = foreign 1.9
+SUBDIRS = src

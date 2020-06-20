@@ -1,0 +1,39 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>分布式任务调度与执行框架MARC</title>
+<base target="middle">
+</head>
+<script lang="Javascript">
+function myrefresh()
+{
+	if(document.getElementById("cb1").checked==true)
+	{
+		window.parent.frames['middle'].location.reload(window.parent.frames['middle'].location.href);
+	}
+}
+var vIntervalID = setInterval('myrefresh()',5000);
+</script>
+<body bgcolor="#F5F4EB">
+
+<p><img border=0 src="./img/logo.png" width="48" height="48" style="position: absolute; top: 6"><font size="6" face="华文楷体"><span lang="en-us">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>分布式任务调度与执行框架MARC</font></p>
+<p>
+<font face="宋体" size="4">
+&#8226;<a href="/master">Master节点信息</a>&nbsp; 
+&#8226;<a href="/result">Result节点信息</a>&nbsp; 
+&#8226;<a href="/client">Client节点信息</a>&nbsp; 
+&#8226;<a href="/task">任务执行状态</a>&nbsp; 
+&#8226;<a href="/master_log">Master最近日志</a>
+&#8226;<a href="/master_errlog">Master异常日志</a>
+<input id="cb1" type="checkbox" name="C1" value="ON">自动刷新
+</font>
+</p>
+
+</body>
+<script lang="Javascript">
+setrefresh();
+</script>
+</html>
